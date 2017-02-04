@@ -12,14 +12,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/stowelly/aws-sdk-go/aws"
+	"github.com/stowelly/aws-sdk-go/aws/awserr"
+	"github.com/stowelly/aws-sdk-go/aws/corehandlers"
+	"github.com/stowelly/aws-sdk-go/aws/credentials"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/awstesting"
+	"github.com/stowelly/aws-sdk-go/awstesting/unit"
+	"github.com/stowelly/aws-sdk-go/service/s3"
 )
 
 func TestValidateEndpointHandler(t *testing.T) {

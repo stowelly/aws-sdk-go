@@ -9,8 +9,8 @@
 package kmsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/kms"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/service/kms"
 )
 
 // KMSAPI provides an interface to enable mocking the

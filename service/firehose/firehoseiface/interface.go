@@ -9,8 +9,8 @@
 package firehoseiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/firehose"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/service/firehose"
 )
 
 // FirehoseAPI provides an interface to enable mocking the

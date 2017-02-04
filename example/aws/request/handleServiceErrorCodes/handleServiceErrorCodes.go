@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/stowelly/aws-sdk-go/aws"
+	"github.com/stowelly/aws-sdk-go/aws/awserr"
+	"github.com/stowelly/aws-sdk-go/aws/session"
+	"github.com/stowelly/aws-sdk-go/service/s3"
 )
 
 func exitErrorf(msg string, args ...interface{}) {

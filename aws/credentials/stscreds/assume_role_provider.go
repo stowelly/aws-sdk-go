@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/service/sts"
+	"github.com/stowelly/aws-sdk-go/aws"
+	"github.com/stowelly/aws-sdk-go/aws/client"
+	"github.com/stowelly/aws-sdk-go/aws/credentials"
+	"github.com/stowelly/aws-sdk-go/service/sts"
 )
 
 // ProviderName provides a name of AssumeRole provider

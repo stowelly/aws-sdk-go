@@ -9,8 +9,8 @@
 package snsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/sns"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/service/sns"
 )
 
 // SNSAPI provides an interface to enable mocking the

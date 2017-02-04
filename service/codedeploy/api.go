@@ -6,10 +6,10 @@ package codedeploy
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/stowelly/aws-sdk-go/aws/awsutil"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/private/protocol"
+	"github.com/stowelly/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 const opAddTagsToOnPremisesInstances = "AddTagsToOnPremisesInstances"

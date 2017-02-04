@@ -9,8 +9,8 @@
 package codedeployiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/codedeploy"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/service/codedeploy"
 )
 
 // CodeDeployAPI provides an interface to enable mocking the

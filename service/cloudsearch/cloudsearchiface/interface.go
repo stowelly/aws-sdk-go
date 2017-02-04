@@ -9,8 +9,8 @@
 package cloudsearchiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cloudsearch"
+	"github.com/stowelly/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/service/cloudsearch"
 )
 
 // CloudSearchAPI provides an interface to enable mocking the

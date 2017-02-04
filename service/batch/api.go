@@ -6,8 +6,8 @@ package batch
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/stowelly/aws-sdk-go/aws/awsutil"
+	"github.com/stowelly/aws-sdk-go/aws/request"
 )
 
 const opCancelJob = "CancelJob"
